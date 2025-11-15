@@ -95,7 +95,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background: #59095c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1623,6 +1623,23 @@ input, select, textarea {
 
 		}
 
+.icon-row {
+	display: flex;
+	justify-content: center;
+	gap: 2rems;
+	margin-top: 1rem;
+}
+
+.contact-link i {
+	font-size: 3rem;
+	color: white;
+	transition: 0.2s
+}
+
+.contact-link i:hover {
+	transform: scale(1.2);
+}
+
 /* Footer */
 
 	#footer {
@@ -1634,6 +1651,7 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+		visibility: none;
 	}
 
 		#footer .copyright {
@@ -1642,6 +1660,7 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			visibility: none;
 		}
 
 		body.is-article-visible #footer {
@@ -1659,3 +1678,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		
