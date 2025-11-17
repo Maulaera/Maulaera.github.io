@@ -1640,6 +1640,19 @@ input, select, textarea {
 	transform: scale(1.2);
 }
 
+/* About Me */
+.about-img {
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+
+#about {
+	text-align: center;
+	text-wrap: initial;
+}
+
 /* Footer */
 
 	#footer {
