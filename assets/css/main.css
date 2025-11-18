@@ -95,7 +95,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #59095c;
+		background: #a667cf;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1651,6 +1651,27 @@ input, select, textarea {
 #about {
 	text-align: center;
 	text-wrap: initial;
+}
+
+.project-list {
+    list-style: none;         /* remove bullets */
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.project-list li {
+    margin-bottom: 1.2rem;    /* space between items */
+    line-height: 1.4;
+}
+
+.project-list a {
+    color: #7abaff;           /* pick a color that matches your site */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.project-list a:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
